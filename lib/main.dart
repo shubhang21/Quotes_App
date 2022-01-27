@@ -67,7 +67,7 @@ class _QuoteListState extends State<QuoteList> {
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           setState(() {
-            quotes.add(Quote(text: 'hi', author: 'h'));
+            quotes.add(Quote(text: 'New Quote', author: 'Me'));
           });
         },
         backgroundColor: Colors.redAccent,
